@@ -24,10 +24,10 @@ class ViewController: UIViewController {
     
     @IBAction func switchTapped(_ sender: Any) {
         if backgroundSwitch.isOn {
-            backgroundLabel.text = firstBackground
+            backgroundLabel.text = secondBackground
             view.backgroundColor = UIColor(patternImage: UIImage(named: "bg2")!)
         } else {
-            backgroundLabel.text = secondBackground
+            backgroundLabel.text = firstBackground
             view.backgroundColor = UIColor(patternImage: UIImage(named: "bg1")!)
         }
         
