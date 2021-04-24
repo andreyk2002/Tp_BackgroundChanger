@@ -15,6 +15,7 @@ class ViewController: UIViewController {
     let firstBackground = "Backgrond image : bg1.jpg"
     let secondBackground = "Backgrond image : bg2.jpg"
     
+    // MARK: -default background is bg1
     override func viewDidLoad() {
         super.viewDidLoad()
         backgroundLabel.text = firstBackground
